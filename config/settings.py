@@ -27,6 +27,8 @@ INSTALLED_APPS = [
     # Our apps
     'tasks',
     'annotate',
+    'users',
+    'rest_framework_simplejwt.token_blacklist',
 ]
 
 MIDDLEWARE = [
@@ -86,6 +88,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+AUTH_USER_MODEL = 'users.User'
 # ── CORS ──────────────────────────────────────────────
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
