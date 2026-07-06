@@ -8,3 +8,6 @@ media/
 .env
 *.log
 .secrets
+
+# agent 
+test.md
