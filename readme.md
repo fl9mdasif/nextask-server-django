@@ -3,6 +3,7 @@
 A REST API backend for the NexTask full-stack application.  
 Built with Django 6, Django REST Framework, JWT authentication, and SQLite.
 
+## [NEXTASK - LIVE WEBSITE](https://nextasks-annotate.vercel.app)
 ---
 
 ## Tech Stack
@@ -123,8 +124,7 @@ python manage.py createsuperuser
 
 Enter your details:
 - Email: `admin@gmail.com`
-- Username: `admin`
-- Password: `Admin123!`
+- Password: `admin123456`
 
 ### Step 8 — Run the server
 
